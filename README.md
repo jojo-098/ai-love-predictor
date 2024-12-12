@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Love Compatibility Test | AI恋爱契合度测试
 
-## Getting Started
+[English](#english) | [简体中文](#chinese)
 
-First, run the development server:
+## English
+
+### Introduction
+AI Love Compatibility Test is a web application that analyzes the compatibility between two people based on their age, gender, and zodiac signs. Using AI algorithms, it provides detailed analysis and suggestions for relationships.
+
+### Features
+- User-friendly step-by-step input process
+- Comprehensive compatibility analysis
+- Detailed suggestions based on multiple factors
+- Beautiful and responsive UI design
+- Share results with friends
+
+### Tech Stack
+- Next.js 14
+- React
+- TypeScript
+- Tailwind CSS
+- Gradient UI
+
+### Installation
+
+1. Clone the repository
+
+## Chinese
+
+### 项目介绍
+AI恋爱契合度测试是一个基于年龄、性别和星座等因素分析两个人匹配程度的网页应用。通过AI算法，为用户提供详细的分析和建议。
+
+### 功能特点
+- 简单易用的分步输入流程
+- 全面的契合度分析
+- 基于多个因素的详细建议
+- 精美响应式界面设计
+- 支持结果分享功能
+
+### 技术栈
+- Next.js 14
+- React
+- TypeScript
+- Tailwind CSS
+- 渐变UI设计
+
+### 安装说明
+
+1. 克隆仓库
+
+```bash
+git clone https://github.com/yourusername/ai-love-compatibility.git
+```
+
+2. 安装依赖
+
+```bash
+cd ai-love-compatibility
+npm install
+```
+
+3. 运行开发服务器
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. 在浏览器中打开 [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 项目结构
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+   ├── app/
+   │   ├── page.tsx      # 主应用页面
+   │   ├── layout.tsx    # 根布局
+   │   └── globals.css   # 全局样式
+   └── ...
+public/
+   └── ...              # 静态资源
+```
 
-## Learn More
+### 开发说明
+- 运行 `npm run dev` 启动开发模式
+- 运行 `npm run build` 构建生产版本
+- 运行 `npm run start` 启动生产服务器
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License | 许可证
+MIT
