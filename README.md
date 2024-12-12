@@ -25,6 +25,43 @@ AI Love Compatibility Test is a web application that analyzes the compatibility 
 
 1. Clone the repository
 
+```bash
+git clone https://github.com/yourusername/ai-love-compatibility.git
+```
+
+2. Install dependencies
+
+```bash
+cd ai-love-compatibility
+npm install
+```
+
+3. Run the development server
+
+```bash
+npm run dev
+```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+### Project Structure
+
+```
+src/
+   ├── app/
+   │   ├── page.tsx      # Main application page
+   │   ├── layout.tsx    # Root layout
+   │   └── globals.css   # Global styles
+   └── ...
+public/
+   └── ...              # Static assets
+```
+
+### Development
+- Run `npm run dev` for development mode
+- Run `npm run build` to build for production
+- Run `npm run start` to start production server
+
 ## Chinese
 
 ### 项目介绍
